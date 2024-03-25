@@ -4085,7 +4085,7 @@ class Session {
   progressBarDelay=500;
   started=false;
   formMode="on";
-  #pageRefreshDebouncePeriod=150;
+  #pageRefreshDebouncePeriod=0;
   constructor(recentRequests) {
     this.recentRequests = recentRequests;
     this.preloader = new Preloader(this, this.view.snapshotCache);

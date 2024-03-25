@@ -1,7 +1,7 @@
 class Turbo::Debouncer
   attr_reader :delay, :scheduled_task
 
-  DEFAULT_DELAY = 0.5
+  DEFAULT_DELAY = 0.0
 
   def initialize(delay: DEFAULT_DELAY)
     @delay = delay
@@ -19,6 +19,6 @@ class Turbo::Debouncer
 
   private
     def wait_timeout
-      delay + 1
+      delay + 0
     end
 end
