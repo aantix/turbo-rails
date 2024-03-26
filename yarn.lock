@@ -24,19 +24,6 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@hotwired/turbo-rails@npm:@aantix/turbo-rails@8.0.4":
-  version "8.0.4"
-  resolved "https://registry.npmjs.org/@aantix/turbo-rails/-/turbo-rails-8.0.4.tgz"
-  integrity sha512-URnLkVtGnPAVopp7Hs10JvxbWepeZKrvW6NMK2UTLNKlF5gesw3GieEfwV9LVN61sISjsXpeMLWNvPpF2fv6oQ==
-  dependencies:
-    "@hotwired/turbo" "^8.0.4"
-    "@rails/actioncable" "^7.0"
-
-"@hotwired/turbo@^8.0.4":
-  version "8.0.4"
-  resolved "https://registry.npmjs.org/@hotwired/turbo/-/turbo-8.0.4.tgz"
-  integrity sha512-mlZEFUZrJnpfj+g/XeCWWuokvQyN68WvM78JM+0jfSFc98wegm259vCbC1zSllcspRwbgXK31ibehCy5PA78/Q==
-
 "@jridgewell/gen-mapping@^0.3.0":
   version "0.3.3"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz"
@@ -279,7 +266,7 @@ rollup-plugin-terser@^7.0.2:
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
 
-rollup@^1.20.0||^2.0.0, rollup@^2.0.0, rollup@^2.35.1:
+rollup@^2.35.1:
   version "2.79.1"
   resolved "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
   integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
